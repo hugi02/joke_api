@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Lataa vitsit JSON-tiedostosta
-const jokes = require('./index.json');
+const jokes = require('./jokes/index.json');
 
 // Root endpoint
 app.get('/', (req, res) => {
